@@ -22,6 +22,7 @@ namespace DesafioFundamentos.Models
             Console.WriteLine("Digite a placa do veículo para estacionar:");
             string placa = Console.ReadLine();
             veiculos.Add(placa);
+            //IMPLEMENTADO
         }
 
         public void RemoverVeiculo()
@@ -43,6 +44,7 @@ namespace DesafioFundamentos.Models
             {
                 Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
             }
+            //IMPLEMENTADO
         }
 
         public void ListarVeiculos()
@@ -62,3 +64,4 @@ namespace DesafioFundamentos.Models
         }
     }
 }
+//IMPLEMENTADO
